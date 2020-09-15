@@ -6,7 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
 
 import 'main.dart';
-import 'page.dart';
+// import 'page.dart';
+
+import 'package:mapbox_gl_example/ExamplePage.dart';
 
 class MoveCameraPage extends ExamplePage {
   MoveCameraPage() : super(const Icon(Icons.map), 'Camera control');

@@ -12,7 +12,11 @@ import 'package:http/http.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
 
 import 'main.dart';
-import 'page.dart';
+
+import 'package:mapbox_gl_example/ExamplePage.dart';
+
+
+// import 'page.dart';
 
 class PlaceSymbolPage extends ExamplePage {
   PlaceSymbolPage() : super(const Icon(Icons.place), 'Place symbol');

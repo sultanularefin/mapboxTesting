@@ -9,7 +9,11 @@ import 'package:flutter/rendering.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
 
 import 'main.dart';
-import 'page.dart';
+
+
+
+// import 'page.dart';
+import 'package:mapbox_gl_example/ExamplePage.dart';
 
 class ScrollingMapPage extends ExamplePage {
   ScrollingMapPage() : super(const Icon(Icons.map), 'Scrolling map');

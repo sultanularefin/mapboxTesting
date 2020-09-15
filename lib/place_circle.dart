@@ -9,7 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
 
 import 'main.dart';
-import 'page.dart';
+import 'package:mapbox_gl_example/ExamplePage.dart';
+// import 'page.dart';
 
 class PlaceCirclePage extends ExamplePage {
   PlaceCirclePage() : super(const Icon(Icons.check_circle), 'Place circle');

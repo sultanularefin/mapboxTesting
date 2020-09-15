@@ -12,7 +12,10 @@ import 'full_map.dart';
 import 'line.dart';
 import 'map_ui.dart';
 import 'move_camera.dart';
-import 'page.dart';
+
+// import 'page.dart';
+import 'package:mapbox_gl_example/ExamplePage.dart';
+
 import 'place_circle.dart';
 import 'place_symbol.dart';
 import 'scrolling_map.dart';
