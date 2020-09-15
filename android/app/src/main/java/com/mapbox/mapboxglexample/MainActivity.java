@@ -1,3 +1,5 @@
+
+package com.mapbox.mapboxglexample;
 // iteration 1..
 /*package com.mapbox.mapboxglexample;
 
@@ -40,6 +42,7 @@ public class MainActivity extends FlutterActivity {
 //    -  }
 
 
+    
   @Override
   public void configureFlutterEngine(@NonNull FlutterEngine flutterEngine) {
     GeneratedPluginRegistrant.registerWith(flutterEngine);
@@ -50,4 +53,6 @@ public class MainActivity extends FlutterActivity {
                     }
             );
   }
+
+
 }
