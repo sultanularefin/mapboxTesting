@@ -78,7 +78,10 @@ class MapUiBodyState extends State<MapUiBody> {
 
   @override
   void dispose() {
+
+    // important method.....
     mapController.removeListener(_onMapChanged);
+
     super.dispose();
   }
 
@@ -232,6 +235,8 @@ class MapUiBodyState extends State<MapUiBody> {
   }
 
   Widget _visibleRegionGetter(){
+
+    // print('at _visibleRegionGetter() ');
     return FlatButton(
       child: Text('get currently visible region'),
       onPressed: () async{
